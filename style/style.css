@@ -15,6 +15,7 @@
   font-size: 1rem;
   width: 15vw;
   max-width: 15vw;
+  cursor: pointer;
   border: 1px solid #333;
 }
 .btn:hover {
@@ -60,6 +61,7 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   cursor: pointer;
+  position: relative;
 }
 .nav-tools ul li.active {
   color: #fdc001;
@@ -160,6 +162,7 @@ textarea {
 .services {
   text-align: center;
   padding: 4rem 6.7rem;
+  height: 115vh;
 }
 .services h1 {
   font-size: 2.8rem;
@@ -187,3 +190,234 @@ textarea {
   margin-bottom: 3rem;
 }
 /* Pricing section */
+.pricing {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 4rem 6.7rem;
+  text-align: center;
+  position: relative;
+  height: 122vh;
+}
+.pricing h1 {
+  font-size: 2.8rem;
+}
+.pricing .leftprice {
+  width: 35vw;
+  height: 65vh;
+  background-color: white;
+  position: absolute;
+  top: 41vh;
+  left: 13vw;
+}
+.leftpricebox {
+  background-color: #fdc001;
+  height: 60vh;
+  width: 30vw;
+  position: relative;
+  top: -6vh;
+  left: 2.5vw;
+  padding: 1.7rem 6.7rem;
+}
+.pricing .rightprice {
+  width: 35vw;
+  height: 65vh;
+  background-color: white;
+  position: absolute;
+  right: 13vw;
+  top: 41vh;
+}
+.rightpricebox {
+  background-color: #fdc001;
+  height: 60vh;
+  width: 30vw;
+  position: relative;
+  top: -6vh;
+  left: 2.5vw;
+  padding: 1.7rem 6.7rem;
+}
+.priceboxheading {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.leftpricebox p,
+.rightpricebox p {
+  padding-top: 0.4rem;
+  font-size: 1.1rem;
+}
+.price {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.leftprice button,
+.rightprice button {
+  position: absolute;
+  bottom: -4.5vh;
+  right: 10vw;
+  background-color: #363636;
+}
+/* blog section */
+.blog {
+  text-align: center;
+  padding: 4rem 6.7rem;
+  height: 125vh;
+  background-color: #fff;
+}
+.blog h1 {
+  font-size: 2.8rem;
+  color: #363636;
+}
+.blog .div33 {
+  width: 22.4vw;
+  float: left;
+  margin-left: 3.6rem;
+  margin-top: 2rem;
+  text-align: left;
+  padding: 0.5rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+  background-color: white;
+  position: relative;
+}
+.blog .div33 img {
+  width: 99%;
+}
+.blog .div33 .date {
+  position: relative;
+  background-color: black;
+  padding: 0.5rem 0.7rem;
+  width: 6.4vw;
+  color: white;
+  font-size: 14px;
+  top: -6.7vh;
+  left: 7.5vw;
+}
+.blog .date.active {
+  background-color: #fdc001;
+}
+.blog .div33 h2 {
+  color: #363636;
+  padding: 0.3rem 0.6rem 0.7rem 0.6rem;
+}
+.blog .div33 p {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.02rem;
+  margin-bottom: 2.5rem;
+  padding: 1rem 0.6rem 1rem 0.6rem;
+}
+.blog .btn {
+  margin-top: 0;
+  /* margin-bottom: 3rem; */
+  position: absolute;
+  bottom: -5vh;
+  left: 3.3vw;
+}
+
+/* about section */
+.about {
+  height: 98vh;
+  background-color: #fdc001;
+  position: relative;
+}
+.about .leftabout {
+  width: 46vw;
+
+  position: absolute;
+  top: 15vh;
+  left: 3vw;
+}
+.about .aboutbox {
+  width: 25vw;
+  height: 70vh;
+  background-color: white;
+}
+.about .leftabout img {
+  position: relative;
+  bottom: 65vh;
+  left: 2vw;
+  max-width: 43vw;
+}
+.about .rightabout {
+  max-width: 40vw;
+
+  position: absolute;
+  right: 7vw;
+  top: 27vh;
+}
+.about .rightabout h1 {
+  font-size: 2.5rem;
+  color: #2d2d2d;
+}
+.about .rightabout p {
+  margin-top: 1rem;
+}
+/* customer review section */
+.customer-review {
+  padding: 4rem 7rem;
+  position: relative;
+  height: 80vh;
+}
+.customer {
+  width: 12vw;
+
+  position: absolute;
+  top: 25vh;
+  left: 12vw;
+}
+.customer p {
+  color: #fdc001;
+}
+.review {
+  width: 60vw;
+
+  position: absolute;
+  top: 12vh;
+  right: 12vw;
+}
+.review h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.review .boxpara {
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 3rem;
+  margin-top: 2.3rem;
+}
+.controls .fa-solid {
+  padding: 1.4rem 1.7rem;
+  box-shadow: 0 0 10px rgba(13, 3, 3, 0.38);
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+}
+.controls .fa-solid:hover {
+  background-color: #fdc001;
+}
+.controls .fa-angle-left {
+  position: relative;
+  top: 54vh;
+  left: 37.2vw;
+}
+.controls .fa-angle-right {
+  position: relative;
+  top: 54vh;
+  left: 37.5vw;
+}
+/* footer section */
+.footer1 {
+  background-color: #333;
+  height: 50vh;
+  position: relative;
+  color: white;
+  width: 100vw;
+  padding-top: 50px;
+  padding-left: 192px;
+  /* padding: 4rem 2rem; */
+}
+.div25 {
+  width: 25vw;
+  float: left;
+  padding-left: 40px;
+}
